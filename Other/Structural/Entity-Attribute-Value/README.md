@@ -1,0 +1,1 @@
+#Entity-Attribute-Value Pattern (EAV Model)

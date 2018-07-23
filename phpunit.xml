@@ -12,6 +12,7 @@
     </testsuites>
     <filter>
         <blacklist>
+            <directory>./docker</directory>
             <directory>./vendor</directory>
         </blacklist>
     </filter>
