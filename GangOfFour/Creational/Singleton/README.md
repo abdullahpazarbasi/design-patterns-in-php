@@ -1,1 +1,1 @@
-#Singleton Pattern
+# Singleton Pattern
