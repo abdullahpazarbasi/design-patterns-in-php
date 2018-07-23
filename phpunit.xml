@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="Design Patterns in PHP">
+            <directory suffix="Test.php">GangOfFour/Behavioral/*/Tests</directory>
+            <directory suffix="Test.php">GangOfFour/Creational/*/Tests</directory>
+            <directory suffix="Test.php">GangOfFour/Structural/*/Tests</directory>
+            <directory suffix="Test.php">Other/Behavioral/*/Tests</directory>
+            <directory suffix="Test.php">Other/Creational/*/Tests</directory>
+            <directory suffix="Test.php">Other/Structural/*/Tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <blacklist>
+            <directory>./vendor</directory>
+        </blacklist>
+    </filter>
+</phpunit>
