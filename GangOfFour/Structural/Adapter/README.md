@@ -1,8 +1,9 @@
 # Adapter Pattern
+## Adaptör Tasarım Kalıbı (Adaptör Tasarım Deseni)
 
 İşleyişleri farklı servis veya sınıfları tek arayüz ile kullanma olanağı sunan tasarım kalıbıdır.
 
-Adapter tasarım kalıbında 4 temel bileşen vardır:
+Adaptör tasarım kalıbında 4 temel bileşen vardır:
 
 - Adaptee: Hedef arayüze adapte edilmek istenen (mesela harici) sınıf.
 - Target: Hedef arayüz.
