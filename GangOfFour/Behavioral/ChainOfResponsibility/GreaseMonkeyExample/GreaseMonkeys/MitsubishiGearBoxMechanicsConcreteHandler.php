@@ -1,0 +1,33 @@
+<?php
+/**
+ * User: abdullah
+ * Date: 01.01.2018
+ * Time: 15:15
+ */
+namespace DesignPatterns\GangOfFour\Behavioral\ChainOfResponsibility\GreaseMonkeyExample\GreaseMonkeys;
+
+use DesignPatterns\GangOfFour\Behavioral\ChainOfResponsibility\GreaseMonkeyExample\Cars\Car;
+use DesignPatterns\GangOfFour\Behavioral\ChainOfResponsibility\GreaseMonkeyExample\Cars\FordCar;
+use DesignPatterns\GangOfFour\Behavioral\ChainOfResponsibility\GreaseMonkeyExample\Cars\MitsubishiCar;
+use DesignPatterns\GangOfFour\Behavioral\ChainOfResponsibility\GreaseMonkeyExample\GreaseMonkeyAbstractHandler;
+
+/**
+ * Class MitsubishiGearBoxMechanicsConcreteHandler
+ */
+class MitsubishiGearBoxMechanicsConcreteHandler extends GreaseMonkeyAbstractHandler
+{
+
+    /**
+     * @param Car $oCar
+     * @return void
+     */
+    protected function repair(Car $oCar)
+    {
+        // Yalnızca Mitsubishi marka araçlara bakıyorum.
+        if (!($oCar instanceof MitsubishiCar)) {
+            return;
+        }
+        $oCar->setGearBoxHealthy(TRUE);
+    }
+
+}

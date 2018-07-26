@@ -1,7 +1,7 @@
 # Design Patterns in PHP
 ## PHP'de Tasarım Kalıpları (Tasarım Desenleri / Tasarım Şablonları)
 
-Burada `Yazılım Geliştirici` [Abdullah Pazarbaşı](http://www.abdullahpazarbasi.com/)'nın kendi örnekleri ile nesne yönelimli yazılım mimarilerinde önemli yeri olan ve yaygın kullanılan tasarım kalıpları ve `PHP 7`'de kullanımları tanıtılıyor.
+Burada `PHP Yazılım Geliştiricisi` [Abdullah Pazarbaşı](http://www.abdullahpazarbasi.com/)'nın kendi örnekleri ile nesne yönelimli yazılım mimarilerinde önemli yeri olan ve yaygın kullanılan tasarım kalıpları ve `PHP 7`'de kullanımları tanıtılıyor.
 
 
 ----
@@ -14,7 +14,7 @@ Burada `Yazılım Geliştirici` [Abdullah Pazarbaşı](http://www.abdullahpazarb
         - [Sorumluluk Zinciri (Chain of Responsibility)](GangOfFour/Behavioral/ChainOfResponsibility) Tasarım Kalıbı
         - [Komut (Command)](GangOfFour/Behavioral/Command) Tasarım Kalıbı
         - [Yorumlayıcı (Interpreter)](GangOfFour/Behavioral/Interpreter) Tasarım Kalıbı
-        - [Iterator](GangOfFour/Behavioral/Iterator) Tasarım Kalıbı
+        - [İteratör (Iterator)](GangOfFour/Behavioral/Iterator) Tasarım Kalıbı
         - [Aracı (Mediator)](GangOfFour/Behavioral/Mediator) Tasarım Kalıbı
         - [Hatıra (Memento)](GangOfFour/Behavioral/Memento) Tasarım Kalıbı
         - [Gözlemci (Observer)](GangOfFour/Behavioral/Observer) Tasarım Kalıbı
@@ -27,7 +27,7 @@ Burada `Yazılım Geliştirici` [Abdullah Pazarbaşı](http://www.abdullahpazarb
         - [İnşaatçı (Builder)](GangOfFour/Creational/Builder) Tasarım Kalıbı
         - [Fabrika Metodu (Factory Method)](GangOfFour/Creational/FactoryMethod) Tasarım Kalıbı
         - [Prototip (Prototype)](GangOfFour/Creational/Prototype) Tasarım Kalıbı
-        - [Singleton](GangOfFour/Creational/Singleton) Tasarım Kalıbı
+        - [Biricik (Singleton)](GangOfFour/Creational/Singleton) Tasarım Kalıbı
     - Yapısal olanlar
         - [Adaptör (Adapter)](GangOfFour/Structural/Adapter) Tasarım Kalıbı
         - [Köprü (Bridge)](GangOfFour/Structural/Bridge) Tasarım Kalıbı
