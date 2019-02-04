@@ -9,4 +9,4 @@ Gözlemci tasarım kalıbı 4 ana bileşenden oluşur:
 - Gözlemci Arayüzü (Observer Interface): Özneyi (subject'i) takip edecek olan nesnenin arayüzüdür.
 - Somut Gözlemci (Concrete Observer): Öznenin (subject'in) vaziyetini takip edecek olan somut nesnedir.
 
-PHP bu tasarım kalabını arayüzleri ile de destekler. SplSubject ve SplObserver diye iki arayüz PHP'de built-in olarak tanımlanmıştır.
+PHP, bu tasarım kalıbını arayüzleri ile de destekler. SplSubject ve SplObserver diye iki arayüz PHP'de built-in olarak tanımlanmıştır.
