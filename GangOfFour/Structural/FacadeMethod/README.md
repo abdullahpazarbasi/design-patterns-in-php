@@ -1,6 +1,6 @@
 # Facade Method Pattern
 ## Façade Tasarım Kalıbı (Façade Tasarım Deseni)
-Alt sistemlerin direkt olarak kullanılması yerine alt sistemdeki nesnelerin başka bir nesne üzerinden kullanılmasını sağlayan tasarım desenidir.
+Yapısal bir tasarım kalıbıdır. Alt sistemlerin direkt olarak kullanılması yerine alt sistemdeki nesnelerin başka bir nesne üzerinden kullanılmasını sağlayan tasarım desenidir.
 
 İstemci alt sisteme direkt erişmez, façade nesnesi üzerinden erişir. Böylece ayrışma (decoupling) gerçekleşmiş olur.
 
