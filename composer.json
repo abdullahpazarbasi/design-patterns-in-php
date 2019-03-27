@@ -1,6 +1,7 @@
 {
   "name": "abdullahpazarbasi/design-patterns-in-php",
   "description": "PHP7 ile tasarim kaliplari (design patterns) ornekleri",
+  "license": "MIT",
   "authors": [
     {
       "name": "Abdullah Pazarbasi",
