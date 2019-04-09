@@ -17,7 +17,7 @@ Burada `PHP Yazılım Geliştiricisi` [Abdullah Pazarbaşı](http://www.abdullah
         - [İteratör (Iterator)](GangOfFour/Behavioral/Iterator) Tasarım Kalıbı
         - [Aracı (Mediator)](GangOfFour/Behavioral/Mediator) Tasarım Kalıbı
         - [Hatıra (Memento)](GangOfFour/Behavioral/Memento) Tasarım Kalıbı
-        - [Gözlemci (Observer)](GangOfFour/Behavioral/Observer) Tasarım Kalıbı
+        - [Gözleyici (Observer)](GangOfFour/Behavioral/Observer) Tasarım Kalıbı
         - [Vaziyet (State)](GangOfFour/Behavioral/State) Tasarım Kalıbı
         - [Strateji (Strategy)](GangOfFour/Behavioral/Strategy) Tasarım Kalıbı
         - [Şablon Metodu (Template Method)](GangOfFour/Behavioral/TemplateMethod) Tasarım Kalıbı
