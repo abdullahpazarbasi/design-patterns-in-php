@@ -1,5 +1,5 @@
-# Bridge Pattern
-## Köprü Tasarım Kalıbı (Köprü Tasarım Deseni)
+# Bridge Design Pattern
+## Köprü Tasarım Kalıbı (Köprü Tasarım Şablonu)
 
 İş mantığını (business logic) veya dev bir sınıfı bağımsız olarak geliştirilebilen ayrı sınıf hiyerarşilerine bölen yapısal bir tasarım kalıbıdır.
 

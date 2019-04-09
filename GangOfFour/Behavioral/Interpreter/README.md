@@ -1,1 +1,2 @@
-# Interpreter Pattern
+# Interpreter Design Pattern
+## Yorumlayıcı Tasarım Kalıbı (Yorumlayıcı Tasarım Şablonu)

@@ -1,2 +1,2 @@
-# Proxy Pattern
-## Vekil Tasarım Kalıbı (Vekil Tasarım Deseni)
+# Proxy Design Pattern
+## Vekil Tasarım Kalıbı (Vekil Tasarım Şablonu)

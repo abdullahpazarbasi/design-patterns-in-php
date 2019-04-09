@@ -1,1 +1,2 @@
-# Command Pattern
+# Command Design Pattern
+## Komut Tasarım Kalıbı (Komut Tasarım Şablonu)

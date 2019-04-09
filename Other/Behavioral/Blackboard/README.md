@@ -1,5 +1,5 @@
 # Blackboard Design Pattern
-## Karatahta Tasarım Kalıbı (Karatahta Tasarım Deseni)
+## Karatahta Tasarım Kalıbı (Karatahta Tasarım Şablonu)
 
 Karatahta tasarım kalıbı, büyük ve çeşitli özelleşmiş modülleri bütünleştiren ve karmaşık, deterministik olmayan kontrol stratejilerini uygulayan sistemlerin tasarımı ve uygulanması için bir hesaplama çerçevesi sağlayan bir davranışsal tasarım kalıbıdır.
 

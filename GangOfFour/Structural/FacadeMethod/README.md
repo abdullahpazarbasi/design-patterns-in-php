@@ -1,5 +1,5 @@
-# Facade Method Pattern
-## Façade Tasarım Kalıbı (Façade Tasarım Deseni)
+# Facade Method Design Pattern
+## Façade Metodu Tasarım Kalıbı (Façade Metodu Tasarım Şablonu)
 Yapısal bir tasarım kalıbıdır. Alt sistemlerin direkt olarak kullanılması yerine alt sistemdeki nesnelerin başka bir nesne üzerinden kullanılmasını sağlayan tasarım desenidir.
 
 İstemci alt sisteme direkt erişmez, façade nesnesi üzerinden erişir. Böylece ayrışma (decoupling) gerçekleşmiş olur.

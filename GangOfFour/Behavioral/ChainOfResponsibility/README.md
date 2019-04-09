@@ -1,4 +1,4 @@
-# Chain of Responsibility Pattern
+# Chain of Responsibility Design Pattern
 ## Sorumluluk Zinciri Tasarım Kalıbı (Sorumluluk Zinciri Tasarım Deseni)
 
 Bir veya birden fazla talebi yerine getirme şansının birden fazla nesneye verilmesi ile bu talep alan nesnelerin talip nesneye bağlanmasından kaçınılmasını sağlayan davranışsal bir tasarım kalıbıdır. Görevli nesneler sorumluluklarına göre zincirlenir ve talip nesne, talepten hangi nesne sorumluysa o nesneye varana kadar zincir boyunca aktarılarak yönlendirilir. Sorumlu nesneye varılınca sorumlu nesne talip nesneyi kabul eder, talebi yerine getirir ve ya talibi sıradaki sorumluya aktarır ya da talibi zincirden çıkarır.

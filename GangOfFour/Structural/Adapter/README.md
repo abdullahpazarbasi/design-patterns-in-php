@@ -1,5 +1,5 @@
-# Adapter Pattern
-## Adaptör Tasarım Kalıbı (Adaptör Tasarım Deseni)
+# Adapter Design Pattern
+## Adaptör Tasarım Kalıbı (Adaptör Tasarım Şablonu)
 
 İşleyişleri farklı servis veya sınıfları tek arayüz ile kullanma olanağı sunan tasarım kalıbıdır.
 

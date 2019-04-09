@@ -24,7 +24,7 @@ Burada `PHP Yazılım Geliştiricisi` [Abdullah Pazarbaşı](http://www.abdullah
         - [Ziyaretçi (Visitor)](GangOfFour/Behavioral/Visitor) Tasarım Kalıbı
     - Oluştural olanlar
         - [Soyut Fabrika (Abstract Factory)](GangOfFour/Creational/AbstractFactory) Tasarım Kalıbı
-        - [İnşaatçı (Builder)](GangOfFour/Creational/Builder) Tasarım Kalıbı
+        - [Kurucu (Builder)](GangOfFour/Creational/Builder) Tasarım Kalıbı
         - [Fabrika Metodu (Factory Method)](GangOfFour/Creational/FactoryMethod) Tasarım Kalıbı
         - [Prototip (Prototype)](GangOfFour/Creational/Prototype) Tasarım Kalıbı
         - [Biricik (Singleton)](GangOfFour/Creational/Singleton) Tasarım Kalıbı
@@ -42,7 +42,7 @@ Burada `PHP Yazılım Geliştiricisi` [Abdullah Pazarbaşı](http://www.abdullah
         - [Tarif (Specification)](Other/Behavioral/Specification) Tasarım Kalıbı
     - Oluştural olanlar
         - [Multiton](Other/Creational/Multiton) Tasarım Kalıbı
-        - [Static Factory (Static Fabrika)](Other/Creational/StaticFactory) Tasarım Kalıbı
+        - [Static Fabrika (Static Factory)](Other/Creational/StaticFactory) Tasarım Kalıbı
     - Yapısal olanlar
         - [Bağımlılık Zerketme (Dependency Injection)](Other/Structural/DependencyInjection) Tasarım Kalıbı
         - [Varlık-Nitelik-Değer (Entity-Attribute-Value)](Other/Structural/EntityAttributeValue) Tasarım Kalıbı

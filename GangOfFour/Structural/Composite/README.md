@@ -1,2 +1,2 @@
-# Composite Pattern
-## Kompozit Tasarım Kalıbı (Kompozit Tasarım Deseni)
+# Composite Design Pattern
+## Kompozit Tasarım Kalıbı (Kompozit Tasarım Şablonu)

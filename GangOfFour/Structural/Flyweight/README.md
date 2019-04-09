@@ -1,2 +1,2 @@
-# Flyweight Pattern
-## Sineksiklet Tasarım Kalıbı (Sineksiklet Tasarım Deseni)
+# Flyweight Design Pattern
+## Sineksiklet Tasarım Kalıbı (Sineksiklet Tasarım Şablonu)

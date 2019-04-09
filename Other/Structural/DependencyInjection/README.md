@@ -1,5 +1,6 @@
-# Dependency Injection Pattern
-## Bağımlılık Zerketme Tasarım Kalıbı (Bağımlılık Zerketme Tasarım Deseni)
+# Dependency Injection Design Pattern
+## Bağımlılık Zerketme Tasarım Kalıbı (Bağımlılık Zerketme Tasarım Şablonu)
+
 Yapısal bir tasarım kalıbıdır. DI şeklinde kısaltılır. Inversion of Control (IoC) esasına dayanır. Bağımlılığın bir arayüz implementasyonu ile sağlanması tavsiye edilir. Bağımlı olunacak nesnelerin bağımlı olacak nesneye dışarıdan enjekte edilmesini sağlayan kalıptır.
 
 Avantajlarından en belirgin olanları:

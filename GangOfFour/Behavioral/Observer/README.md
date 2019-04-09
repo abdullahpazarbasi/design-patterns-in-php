@@ -1,4 +1,4 @@
-# Observer Pattern
+# Observer Design Pattern
 ## Gözlemci Tasarım Kalıbı (Gözlemci Tasarım Deseni)
 
 Bir davranışsal tasarım kalıbıdır. Bir nesnenin kendi vaziyetindeki (state'inde) değişimi başka nesnelere bildirmesini sağlar. Bu kalıp sayesinde tekten çoka (one-to-many) bağımlılık (dependency) tanımlanabilir.

@@ -1,2 +1,2 @@
-# Decorator Pattern
-## Dekoratör Tasarım Kalıbı (Dekoratör Tasarım Deseni)
+# Decorator Design Pattern
+## Dekoratör Tasarım Kalıbı (Dekoratör Tasarım Şablonu)

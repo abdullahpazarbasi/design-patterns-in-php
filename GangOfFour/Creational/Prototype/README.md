@@ -1,5 +1,5 @@
-# Prototype Pattern
-## Prototip Tasarım Kalıbı (Prototip Tasarım Deseni)
+# Prototype Design Pattern
+## Prototip Tasarım Kalıbı (Prototip Tasarım Şablonu)
 
 Var olan nesneleri içeriğinden ödün vermeden kopyalayarak yeni nesneler üretmeyi sağlayan oluştural bir tasarım kalıbıdır.
 
