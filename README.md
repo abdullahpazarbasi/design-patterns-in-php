@@ -70,22 +70,6 @@ $ ./vendor/bin/phpunit
 
 yolunda `phpunit` bin'ini elde etmiş olacaksınız.
 
-Daha basit hale getirmek isterseniz;
-
-```bash
-$ alias phpunit='php /path/to/repo/root/vendor/bin/phpunit'
-```
-
-şeklinde bir tanımlama yapabilirsiniz.
-
-Eğer `xdebug` extension'ını da aktif hale getirerek çalıştırmak isterseniz;
-
-```bash
-$ alias phpunit='php -dzend_extension=xdebug.so /path/to/repo/root/vendor/bin/phpunit'
-```
-
-satırı size yardımcı olacaktır.
-
 
 ----
 
