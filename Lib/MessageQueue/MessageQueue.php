@@ -15,14 +15,14 @@ class MessageQueue
     /**
      * @var null|\SplObjectStorage Mesaj listesi
      */
-    private $oMessages;
+    private $oaMessages;
 
     /**
      * MessageQueue kurucu.
      */
     public function __construct()
     {
-        $this->oMessages = new \SplObjectStorage();
+        $this->oaMessages = new \SplObjectStorage();
     }
 
     /**
@@ -31,7 +31,7 @@ class MessageQueue
      */
     public function push(Message $oMessage): MessageQueue
     {
-        $this->oMessages->attach($oMessage);
+        $this->oaMessages->attach($oMessage);
         return $this;
     }
 
@@ -40,8 +40,8 @@ class MessageQueue
      */
     public function pull(): Message
     {
-        $oMessage = reset($this->oMessages);
-        $this->oMessages->detach($oMessage);
+        $oMessage = reset($this->oaMessages);
+        $this->oaMessages->detach($oMessage);
         return $oMessage;
     }
 
@@ -57,13 +57,21 @@ class MessageQueue
     /**
      * @return string
      */
-    public function __toString(): string
+    public function concatenateMessages(): string
     {
         $asMessage = [];
-        foreach ($this->oMessages as $oMessage) {
+        foreach ($this->oaMessages as $oMessage) {
             $asMessage[] = $oMessage->get();
         }
         return implode(PHP_EOL, $asMessage);
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString(): string
+    {
+        return $this->concatenateMessages();
     }
 
 }
