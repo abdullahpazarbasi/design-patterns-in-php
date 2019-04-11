@@ -108,6 +108,12 @@ $ ./docker/compose/dpip/phpunit.sh --help
 
 komutu ile yardım metnine ulaşabilirsiniz.
 
+```bash
+$ ./docker/compose/dpip/stop.sh
+```
+
+komutu ile docker container'ını düşürebilirsiniz.
+
 
 ----
 
