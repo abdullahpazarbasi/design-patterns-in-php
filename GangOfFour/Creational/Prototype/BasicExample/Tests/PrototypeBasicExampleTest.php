@@ -11,9 +11,9 @@ use DesignPatterns\GangOfFour\Creational\Prototype\BasicExample\BasicExampleProt
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class BasicExampleTest
+ * Class PrototypeBasicExampleTest
  */
-class BasicExampleTest extends TestCase
+class PrototypeBasicExampleTest extends TestCase
 {
 
     /**

@@ -13,9 +13,9 @@ use DesignPatterns\GangOfFour\Structural\Adapter\StorageExample\External\LocalFi
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class StorageExampleTest
+ * Class AdapterStorageExampleTest
  */
-class StorageExampleTest extends TestCase
+class AdapterStorageExampleTest extends TestCase
 {
 
     /**

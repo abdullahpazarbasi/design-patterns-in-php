@@ -10,9 +10,9 @@ use DesignPatterns\GangOfFour\Behavioral\Command\BasicExample\Client;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class ClientTest
+ * Class CommandBasicExampleTest
  */
-class ClientTest extends TestCase
+class CommandBasicExampleTest extends TestCase
 {
 
     /**

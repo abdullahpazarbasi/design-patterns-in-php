@@ -12,9 +12,9 @@ use DesignPatterns\GangOfFour\Behavioral\Iterator\CarListIteratorExample\SportCa
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class CarListIteratorTest
+ * Class IteratorCarListIteratorExampleTest
  */
-class CarListIteratorTest extends TestCase
+class IteratorCarListIteratorExampleTest extends TestCase
 {
 
     /**

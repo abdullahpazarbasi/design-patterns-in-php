@@ -16,9 +16,9 @@ use DesignPatterns\GangOfFour\Behavioral\ChainOfResponsibility\GreaseMonkeyExamp
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class IndustryAreaTest
+ * Class ChainOfResponsibilityGreaseMonkeyExampleTest
  */
-class IndustryAreaTest extends TestCase
+class ChainOfResponsibilityGreaseMonkeyExampleTest extends TestCase
 {
 
     /**

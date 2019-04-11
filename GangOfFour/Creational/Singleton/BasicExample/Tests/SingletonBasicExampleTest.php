@@ -10,9 +10,9 @@ use DesignPatterns\GangOfFour\Creational\Singleton\BasicExample\MySingleton;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class MySingletonTest
+ * Class SingletonBasicExampleTest
  */
-class MySingletonTest extends TestCase
+class SingletonBasicExampleTest extends TestCase
 {
 
     /**

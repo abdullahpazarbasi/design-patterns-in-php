@@ -74,6 +74,44 @@ yolunda `phpunit` bin'ini elde etmiş olacaksınız.
 ----
 
 
+#### Docker kuruluysa
+
+Kök çalışma dizininde `docker.zip` isimli bir arşiv göreceksiniz. Bunu extract edin. Extract ettiğinizde kök çalışma dizininde `docker` dizini oluşmuş olacak.
+
+```bash
+$ ./docker/compose/dpip/restart.sh
+```
+
+komutu ile container'ı build edip ayağa kaldırabilirsiniz.
+
+```bash
+$ ./docker/compose/dpip/phpunit.sh
+```
+
+komutu ile de unit testleri çalıştırabilirsiniz.
+
+```bash
+$ ./docker/compose/dpip/phpunit.sh --xdebug
+```
+
+komutu ile unit testleri `xdebug` etkin olarak çalıştırabilirsiniz.
+
+```bash
+$ ./docker/compose/dpip/phpunit.sh --filter KEYWORD
+```
+
+komutu ile unit testler arasından bazılarını çalıştırabilirsiniz.
+
+```bash
+$ ./docker/compose/dpip/phpunit.sh --help
+```
+
+komutu ile yardım metnine ulaşabilirsiniz.
+
+
+----
+
+
 ### Katkı yapmak isteyenlerdenseniz
 
 Herhangi `typo` veya `bug` fix'inizi `pull request` atarak gönderebilirsiniz. İncelendikten sonra kabul edilecektir.

@@ -6,9 +6,9 @@ use DesignPatterns\GangOfFour\Behavioral\Mediator\BasicExample\Client;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class ClientTest
+ * Class MediatorBasicExampleTest
  */
-class ClientTest extends TestCase
+class MediatorBasicExampleTest extends TestCase
 {
 
     /**

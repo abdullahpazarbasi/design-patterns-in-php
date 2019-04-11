@@ -13,9 +13,9 @@ use DesignPatterns\Lib\MessageQueue\MessageQueue;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class BasicExampleTest
+ * Class ObserverBasicExampleTest
  */
-class BasicExampleTest extends TestCase
+class ObserverBasicExampleTest extends TestCase
 {
 
     /**

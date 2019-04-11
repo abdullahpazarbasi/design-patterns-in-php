@@ -10,9 +10,9 @@ use DesignPatterns\GangOfFour\Creational\FactoryMethod\BasicExample\Client;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class ClientTest
+ * Class FactoryMethodBasicExampleTest
  */
-class ClientTest extends TestCase
+class FactoryMethodBasicExampleTest extends TestCase
 {
 
     /**
