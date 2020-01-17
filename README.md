@@ -7,6 +7,12 @@ Burada `PHP Yazılım Geliştiricisi` [Abdullah Pazarbaşı](http://www.abdullah
 ----
 
 
+Amaç, katılımcılar, yapı (UML), kullanım alanları, alakalı diğer şablonlar
+
+
+----
+
+
 ### İçindekiler
 
 - Gang of Four (GoF) Derlemesi Tasarım Kalıpları
@@ -69,50 +75,6 @@ $ ./vendor/bin/phpunit
 ```
 
 yolunda `phpunit` bin'ini elde etmiş olacaksınız.
-
-
-----
-
-
-#### Docker kuruluysa
-
-Kök çalışma dizininde `docker.zip` isimli bir arşiv göreceksiniz. Bunu extract edin. Extract ettiğinizde kök çalışma dizininde `docker` dizini oluşmuş olacak.
-
-```bash
-$ ./docker/compose/dpip/restart.sh
-```
-
-komutu ile container'ı build edip ayağa kaldırabilirsiniz.
-
-```bash
-$ ./docker/compose/dpip/phpunit.sh
-```
-
-komutu ile de unit testleri çalıştırabilirsiniz.
-
-```bash
-$ ./docker/compose/dpip/phpunit.sh --xdebug
-```
-
-komutu ile unit testleri `xdebug` etkin olarak çalıştırabilirsiniz.
-
-```bash
-$ ./docker/compose/dpip/phpunit.sh --filter KEYWORD
-```
-
-komutu ile unit testler arasından bazılarını çalıştırabilirsiniz.
-
-```bash
-$ ./docker/compose/dpip/phpunit.sh --help
-```
-
-komutu ile yardım metnine ulaşabilirsiniz.
-
-```bash
-$ ./docker/compose/dpip/stop.sh
-```
-
-komutu ile docker container'ını düşürebilirsiniz.
 
 
 ----

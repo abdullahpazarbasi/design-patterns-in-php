@@ -15,16 +15,16 @@ class Message
     /**
      * @var string Mesaj içeriği
      */
-    private $sContent;
+    private $content;
 
     /**
      * Message kurucu.
-     * @param null|string $sMessageContent
+     * @param null|string $messageContent
      */
-    public function __construct(?string $sMessageContent = NULL)
+    public function __construct(?string $messageContent = NULL)
     {
-        if ($sMessageContent !== NULL) {
-            $this->set($sMessageContent);
+        if ($messageContent !== NULL) {
+            $this->set($messageContent);
         }
     }
 
@@ -33,16 +33,16 @@ class Message
      */
     public function getContent(): string
     {
-        return $this->sContent;
+        return $this->content;
     }
 
     /**
-     * @param string $sContent
+     * @param string $content
      * @return Message
      */
-    public function setContent(string $sContent): Message
+    public function setContent(string $content): Message
     {
-        $this->sContent = $sContent;
+        $this->content = $content;
         return $this;
     }
 
@@ -55,12 +55,12 @@ class Message
     }
 
     /**
-     * @param string $sMessage
+     * @param string $messageContent
      * @return Message
      */
-    public function set(string $sMessage): Message
+    public function set(string $messageContent): Message
     {
-        return $this->setContent($sMessage);
+        return $this->setContent($messageContent);
     }
 
 }

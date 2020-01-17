@@ -13,16 +13,16 @@ class Misc
 {
 
     /**
-     * @param object|string|null $xClass
+     * @param object|string|null $classOrObject
      * @return string
      */
-    public static function class_basename($xClass)
+    public static function class_basename($classOrObject)
     {
-        if (is_object($xClass)) {
-            $sClass = get_class($xClass);
+        if (is_object($classOrObject)) {
+            $sClass = get_class($classOrObject);
         }
-        elseif (is_string($xClass)) {
-            $sClass = $xClass;
+        elseif (is_string($classOrObject)) {
+            $sClass = $classOrObject;
         }
         else {
             return '';

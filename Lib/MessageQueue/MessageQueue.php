@@ -6,6 +6,8 @@
  */
 namespace DesignPatterns\Lib\MessageQueue;
 
+use SplObjectStorage;
+
 /**
  * Class MessageQueue
  */
@@ -13,25 +15,25 @@ class MessageQueue
 {
 
     /**
-     * @var null|\SplObjectStorage Mesaj listesi
+     * @var null|SplObjectStorage Mesaj listesi
      */
-    private $oaMessages;
+    private $messageStorage;
 
     /**
      * MessageQueue kurucu.
      */
     public function __construct()
     {
-        $this->oaMessages = new \SplObjectStorage();
+        $this->messageStorage = new SplObjectStorage();
     }
 
     /**
-     * @param Message $oMessage
+     * @param Message $message
      * @return static
      */
-    public function push(Message $oMessage): MessageQueue
+    public function push(Message $message): MessageQueue
     {
-        $this->oaMessages->attach($oMessage);
+        $this->messageStorage->attach($message);
         return $this;
     }
 
@@ -40,18 +42,18 @@ class MessageQueue
      */
     public function pull(): Message
     {
-        $oMessage = reset($this->oaMessages);
-        $this->oaMessages->detach($oMessage);
+        $oMessage = reset($this->messageStorage);
+        $this->messageStorage->detach($oMessage);
         return $oMessage;
     }
 
     /**
-     * @param string $sMessageContent
+     * @param string $messageContent
      * @return static
      */
-    public function pushMessage(string $sMessageContent): MessageQueue
+    public function pushMessage(string $messageContent): MessageQueue
     {
-        return $this->push(new Message($sMessageContent));
+        return $this->push(new Message($messageContent));
     }
 
     /**
@@ -60,7 +62,7 @@ class MessageQueue
     public function concatenateMessages(): string
     {
         $asMessage = [];
-        foreach ($this->oaMessages as $oMessage) {
+        foreach ($this->messageStorage as $oMessage) {
             $asMessage[] = $oMessage->get();
         }
         return implode(PHP_EOL, $asMessage);
