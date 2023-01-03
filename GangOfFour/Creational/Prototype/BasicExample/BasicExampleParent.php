@@ -1,42 +1,24 @@
 <?php
-/**
- * User: abdullah
- * Date: 27.07.2018
- * Time: 14:49
- */
+
 namespace DesignPatterns\GangOfFour\Creational\Prototype\BasicExample;
 
-/**
- * Class BasicExampleParent
- */
 abstract class BasicExampleParent
 {
 
-    /**
-     * @var int
-     */
-    private $iParentScalarPrivateProperty;
+    private int $parentScalarPrivateProperty;
 
-    /**
-     * @var int
-     */
-    protected $iParentScalarProtectedProperty;
+    protected int $parentScalarProtectedProperty;
 
-    /**
-     * @var int
-     */
-    public $iParentScalarPublicProperty;
+    public int $parentScalarPublicProperty;
 
     /**
      * BasicExampleParent kurucu.
-     *
-     * @return void
      */
     public function __construct()
     {
-        $this->iParentScalarPrivateProperty = 96;
-        $this->iParentScalarProtectedProperty = 97;
-        $this->iParentScalarPublicProperty = 98;
+        $this->parentScalarPrivateProperty = 96;
+        $this->parentScalarProtectedProperty = 97;
+        $this->parentScalarPublicProperty = 98;
     }
 
     /**
@@ -44,17 +26,7 @@ abstract class BasicExampleParent
      */
     public function getParentScalarPrivateProperty(): int
     {
-        return $this->iParentScalarPrivateProperty;
-    }
-
-    /**
-     * @param int $iParentScalarPrivateProperty
-     * @return BasicExampleParent
-     */
-    public function setParentScalarPrivateProperty(int $iParentScalarPrivateProperty): BasicExampleParent
-    {
-        $this->iParentScalarPrivateProperty = $iParentScalarPrivateProperty;
-        return $this;
+        return $this->parentScalarPrivateProperty;
     }
 
     /**
@@ -62,17 +34,7 @@ abstract class BasicExampleParent
      */
     public function getParentScalarProtectedProperty(): int
     {
-        return $this->iParentScalarProtectedProperty;
-    }
-
-    /**
-     * @param int $iParentScalarProtectedProperty
-     * @return BasicExampleParent
-     */
-    public function setParentScalarProtectedProperty(int $iParentScalarProtectedProperty): BasicExampleParent
-    {
-        $this->iParentScalarProtectedProperty = $iParentScalarProtectedProperty;
-        return $this;
+        return $this->parentScalarProtectedProperty;
     }
 
 }

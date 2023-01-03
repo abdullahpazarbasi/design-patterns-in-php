@@ -1,9 +1,5 @@
 <?php
-/**
- * User: abdullah
- * Date: 01.01.2018
- * Time: 15:15
- */
+
 namespace DesignPatterns\GangOfFour\Behavioral\Command\BasicExample\Tests;
 
 use DesignPatterns\GangOfFour\Behavioral\Command\BasicExample\Client;

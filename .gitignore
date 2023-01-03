@@ -1,4 +1,7 @@
 /.idea
+/.vscode
 *.iml
 /docker
 /vendor
+/composer
+.phpunit*

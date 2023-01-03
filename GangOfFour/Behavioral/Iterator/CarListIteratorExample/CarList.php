@@ -1,9 +1,5 @@
 <?php
-/**
- * User: abdullah
- * Date: 01.01.2018
- * Time: 15:15
- */
+
 namespace DesignPatterns\GangOfFour\Behavioral\Iterator\CarListIteratorExample;
 
 /**
@@ -15,12 +11,12 @@ final class CarList implements CarListIteratorInterface
     /**
      * @var CarAbstract[]
      */
-    private $aCars = [];
+    private array $aCars = [];
 
     /**
      * @var int
      */
-    private $iCurrentIndex = 0;
+    private int $iCurrentIndex = 0;
 
     /**
      * Return the current element
@@ -37,7 +33,7 @@ final class CarList implements CarListIteratorInterface
      * @link http://php.net/manual/en/iterator.next.php
      * @return void Any returned value is ignored.
      */
-    public function next()
+    public function next(): void
     {
         $this->iCurrentIndex++;
     }
@@ -68,7 +64,7 @@ final class CarList implements CarListIteratorInterface
      * @link http://php.net/manual/en/iterator.rewind.php
      * @return void Any returned value is ignored.
      */
-    public function rewind()
+    public function rewind(): void
     {
         $this->iCurrentIndex = 0;
     }

@@ -1,9 +1,5 @@
 <?php
-/**
- * User: abdullah
- * Date: 01.01.2018
- * Time: 15:15
- */
+
 namespace DesignPatterns\GangOfFour\Behavioral\Iterator\CarListIteratorExample;
 
 /**
@@ -28,12 +24,12 @@ abstract class CarAbstract
      * @param null|string $sBrand
      * @param null|string $sModel
      */
-    public function __construct(?string $sBrand = NULL, ?string $sModel = NULL)
+    public function __construct(?string $sBrand = null, ?string $sModel = null)
     {
-        if ($sBrand !== NULL) {
+        if ($sBrand !== null) {
             $this->setBrand($sBrand);
         }
-        if ($sModel !== NULL) {
+        if ($sModel !== null) {
             $this->setModel($sModel);
         }
     }
@@ -80,9 +76,9 @@ abstract class CarAbstract
     public function getName(): ?string
     {
         $sName = $this->getBrand();
-        if ($sName !== NULL) {
+        if ($sName !== null) {
             $sTmp = $this->getModel();
-            if ($sTmp !== NULL) {
+            if ($sTmp !== null) {
                 $sName .= ' ' . $sTmp;
             }
         }

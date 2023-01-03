@@ -1,27 +1,17 @@
 <?php
-/**
- * User: abdullah
- * Date: 01.01.2018
- * Time: 15:15
- */
+
 namespace DesignPatterns\GangOfFour\Creational\FactoryMethod\BasicExample\Tests;
 
 use DesignPatterns\GangOfFour\Creational\FactoryMethod\BasicExample\Client;
 use PHPUnit\Framework\TestCase;
 
-/**
- * Class FactoryMethodBasicExampleTest
- */
 class FactoryMethodBasicExampleTest extends TestCase
 {
 
-    /**
-     * @return void
-     */
-    public function testFabrikaMetodu()
+    public function testFabrikaMetodu(): void
     {
-        $sMessages = Client::run();
-        $this->assertSame('AbcConcreteXyz işlemi tamam.' . PHP_EOL . 'DefConcreteXyz işlemi tamam.', $sMessages);
+        $messages = Client::run();
+        $this->assertSame('AbcConcreteXyz işlemi tamam.' . PHP_EOL . 'DefConcreteXyz işlemi tamam.', $messages);
     }
 
 }

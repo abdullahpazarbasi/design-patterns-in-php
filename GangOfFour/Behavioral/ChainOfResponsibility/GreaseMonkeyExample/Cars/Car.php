@@ -1,9 +1,5 @@
 <?php
-/**
- * User: abdullah
- * Date: 01.01.2018
- * Time: 15:15
- */
+
 namespace DesignPatterns\GangOfFour\Behavioral\ChainOfResponsibility\GreaseMonkeyExample\Cars;
 
 use DesignPatterns\GangOfFour\Behavioral\ChainOfResponsibility\GreaseMonkeyExample\MechanicalThing;
@@ -37,15 +33,15 @@ abstract class Car implements MechanicalThing
      * @param bool $bIsGearBoxHealthy
      * @param bool $bIsBodyworkHealthy
      */
-    public function __construct(?bool $bIsEngineHealthy = NULL, ?bool $bIsGearBoxHealthy = NULL, ?bool $bIsBodyworkHealthy = NULL)
+    public function __construct(?bool $bIsEngineHealthy = null, ?bool $bIsGearBoxHealthy = null, ?bool $bIsBodyworkHealthy = null)
     {
-        if ($bIsEngineHealthy !== NULL) {
+        if ($bIsEngineHealthy !== null) {
             $this->setEngineHealthy($bIsEngineHealthy);
         }
-        if ($bIsGearBoxHealthy !== NULL) {
+        if ($bIsGearBoxHealthy !== null) {
             $this->setGearBoxHealthy($bIsGearBoxHealthy);
         }
-        if ($bIsBodyworkHealthy !== NULL) {
+        if ($bIsBodyworkHealthy !== null) {
             $this->setBodyworkHealthy($bIsBodyworkHealthy);
         }
     }

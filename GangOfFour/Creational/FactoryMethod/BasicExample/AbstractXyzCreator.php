@@ -1,9 +1,5 @@
 <?php
-/**
- * User: abdullah
- * Date: 01.01.2018
- * Time: 15:15
- */
+
 namespace DesignPatterns\GangOfFour\Creational\FactoryMethod\BasicExample;
 
 /**
@@ -22,8 +18,9 @@ abstract class AbstractXyzCreator
      */
     final public function doMyOperation()
     {
-        $oConcreteXyz = $this->factoryMethod();
-        return $oConcreteXyz->myOperation();
+        $xyz = $this->factoryMethod();
+
+        return $xyz->operate();
     }
 
 }

@@ -1,37 +1,24 @@
 <?php
-/**
- * User: abdullah
- * Date: 01.01.2018
- * Time: 15:15
- */
+
 namespace DesignPatterns\GangOfFour\Creational\Singleton\BasicExample\Tests;
 
 use DesignPatterns\GangOfFour\Creational\Singleton\BasicExample\MySingleton;
 use PHPUnit\Framework\TestCase;
 
-/**
- * Class SingletonBasicExampleTest
- */
 class SingletonBasicExampleTest extends TestCase
 {
 
-    /**
-     * @return void
-     */
-    public function testCagirilanOturumGercektenSinifinOturumuMu()
+    public function testCagirilanOturumGercektenSinifinOturumuMu(): void
     {
-        $oInstance = MySingleton::getInstance();
-        $this->assertInstanceOf(MySingleton::class, $oInstance);
+        $instance = MySingleton::getInstance();
+        $this->assertInstanceOf(MySingleton::class, $instance);
     }
 
-    /**
-     * @return void
-     */
-    public function testIlkReferansIleIkinciReferansAyniMi()
+    public function testIlkReferansIleIkinciReferansAyniMi(): void
     {
-        $oFirstReference = MySingleton::getInstance();
-        $oSecondReference = MySingleton::getInstance();
-        $this->assertSame($oFirstReference, $oSecondReference);
+        $firstReference = MySingleton::getInstance();
+        $secondReference = MySingleton::getInstance();
+        $this->assertSame($firstReference, $secondReference);
     }
 
 }

@@ -1,2 +1,3 @@
 # Service Locator Design Pattern
-## Servis Yerleştirici Tasarım Kalıbı (Servis Yerleştirici Tasarım Şablonu)
+
+## Servis Bulucu Tasarım Kalıbı (Servis Bulucu Tasarım Şablonu)

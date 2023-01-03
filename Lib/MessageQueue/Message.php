@@ -1,9 +1,5 @@
 <?php
-/**
- * User: abdullah
- * Date: 01.01.2018
- * Time: 15:15
- */
+
 namespace DesignPatterns\Lib\MessageQueue;
 
 /**
@@ -21,9 +17,9 @@ class Message
      * Message kurucu.
      * @param null|string $messageContent
      */
-    public function __construct(?string $messageContent = NULL)
+    public function __construct(?string $messageContent = null)
     {
-        if ($messageContent !== NULL) {
+        if ($messageContent !== null) {
             $this->set($messageContent);
         }
     }

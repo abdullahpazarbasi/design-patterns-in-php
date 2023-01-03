@@ -1,9 +1,5 @@
 <?php
-/**
- * User: abdullah
- * Date: 01.01.2018
- * Time: 15:15
- */
+
 namespace DesignPatterns\GangOfFour\Creational\FactoryMethod\BasicExample;
 
 use DesignPatterns\Lib\MessageQueue\MessageQueue;
@@ -14,28 +10,22 @@ use DesignPatterns\Lib\MessageQueue\MessageQueue;
 class Client
 {
 
-    /**
-     * @param AbstractXyzCreator $oXyzCreator
-     * @return string
-     */
-    protected static function doMyOperation(AbstractXyzCreator $oXyzCreator)
+    protected static function doMyOperation(AbstractXyzCreator $oXyzCreator): string
     {
         return $oXyzCreator->doMyOperation();
     }
 
-    /**
-     * @return string
-     */
-    public static function run()
+    public static function run(): string
     {
-        $oMessageQueue = new MessageQueue();
-        $oMessageQueue->pushMessage(
+        $messageQueue = new MessageQueue();
+        $messageQueue->pushMessage(
             self::doMyOperation(new AbcConcreteXyzCreator())
         );
-        $oMessageQueue->pushMessage(
+        $messageQueue->pushMessage(
             self::doMyOperation(new DefConcreteXyzCreator())
         );
-        return (string)$oMessageQueue;
+
+        return (string)$messageQueue;
     }
 
 }
