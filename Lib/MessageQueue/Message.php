@@ -2,20 +2,16 @@
 
 namespace DesignPatterns\Lib\MessageQueue;
 
-/**
- * Class Message
- */
 class Message
 {
 
     /**
      * @var string Mesaj içeriği
      */
-    private $content;
+    private string $content;
 
     /**
      * Message kurucu.
-     * @param null|string $messageContent
      */
     public function __construct(?string $messageContent = null)
     {

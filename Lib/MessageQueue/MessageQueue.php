@@ -4,16 +4,13 @@ namespace DesignPatterns\Lib\MessageQueue;
 
 use SplObjectStorage;
 
-/**
- * Class MessageQueue
- */
 class MessageQueue
 {
 
     /**
      * @var null|SplObjectStorage Mesaj listesi
      */
-    private $messageStorage;
+    private ?SplObjectStorage $messageStorage;
 
     /**
      * MessageQueue kurucu.
@@ -25,11 +22,12 @@ class MessageQueue
 
     /**
      * @param Message $message
-     * @return static
+     * @return MessageQueue
      */
     public function push(Message $message): MessageQueue
     {
         $this->messageStorage->attach($message);
+
         return $this;
     }
 
@@ -38,35 +36,31 @@ class MessageQueue
      */
     public function pull(): Message
     {
-        $oMessage = reset($this->messageStorage);
-        $this->messageStorage->detach($oMessage);
-        return $oMessage;
+        $message = reset($this->messageStorage);
+        $this->messageStorage->detach($message);
+
+        return $message;
     }
 
     /**
      * @param string $messageContent
-     * @return static
+     * @return MessageQueue
      */
     public function pushMessage(string $messageContent): MessageQueue
     {
         return $this->push(new Message($messageContent));
     }
 
-    /**
-     * @return string
-     */
     public function concatenateMessages(): string
     {
-        $asMessage = [];
-        foreach ($this->messageStorage as $oMessage) {
-            $asMessage[] = $oMessage->get();
+        $messages = [];
+        foreach ($this->messageStorage as $message) {
+            $messages[] = $message->get();
         }
-        return implode(PHP_EOL, $asMessage);
+
+        return implode(PHP_EOL, $messages);
     }
 
-    /**
-     * @return string
-     */
     public function __toString(): string
     {
         return $this->concatenateMessages();

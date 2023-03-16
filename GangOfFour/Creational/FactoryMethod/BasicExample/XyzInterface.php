@@ -5,9 +5,6 @@ namespace DesignPatterns\GangOfFour\Creational\FactoryMethod\BasicExample;
 interface XyzInterface
 {
 
-    /**
-     * @return string
-     */
-    public function operate();
+    public function operate(): string;
 
 }

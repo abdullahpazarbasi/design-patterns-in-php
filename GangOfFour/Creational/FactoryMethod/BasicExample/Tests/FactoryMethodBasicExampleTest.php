@@ -11,7 +11,7 @@ class FactoryMethodBasicExampleTest extends TestCase
     public function testFabrikaMetodu(): void
     {
         $messages = Client::run();
-        $this->assertSame('AbcConcreteXyz işlemi tamam.' . PHP_EOL . 'DefConcreteXyz işlemi tamam.', $messages);
+        $this->assertSame("Abc\nDef", $messages);
     }
 
 }

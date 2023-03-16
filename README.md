@@ -1,17 +1,10 @@
-# Design Patterns in PHP
-## PHP'de Tasarım Kalıpları (Tasarım Desenleri / Tasarım Şablonları)
-
-Burada `PHP Yazılım Geliştiricisi` [Abdullah Pazarbaşı](http://www.abdullahpazarbasi.com/)'nın kendi örnekleri ile nesne yönelimli yazılım mimarilerinde önemli yeri olan ve yaygın kullanılan tasarım kalıpları ve `PHP 8`'de kullanımları tanıtılıyor.
-
+# PHP 'de Tasarım Kalıpları - PHP 'de Tasarım Şablonları - PHP 'de Tasarım Desenleri (Design Patterns in PHP)
 
 ----
-
 
 Amaç, katılımcılar, yapı (UML), kullanım alanları, alakalı diğer şablonlar
 
-
 ----
-
 
 ### İçindekiler
 
@@ -103,4 +96,4 @@ ile `unit test` 'leri çalıştırabilirsiniz.
 
 ### Katkı yapmak isteyenlerdenseniz
 
-Herhangi `typo` veya `bug` fix'inizi `pull request` atarak gönderebilirsiniz. İncelendikten sonra kabul edilecektir.
+Herhangi `typo` veya `bug` fix 'inizi `pull request` atarak gönderebilirsiniz. İncelendikten sonra kabul edilecektir.

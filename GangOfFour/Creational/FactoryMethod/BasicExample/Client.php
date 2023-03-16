@@ -4,25 +4,22 @@ namespace DesignPatterns\GangOfFour\Creational\FactoryMethod\BasicExample;
 
 use DesignPatterns\Lib\MessageQueue\MessageQueue;
 
-/**
- * Class Client
- */
 class Client
 {
 
-    protected static function doMyOperation(AbstractXyzCreator $oXyzCreator): string
+    protected static function doMyOperation(AbstractXyzCreator $creator): string
     {
-        return $oXyzCreator->doMyOperation();
+        return $creator->doMyOperation();
     }
 
     public static function run(): string
     {
         $messageQueue = new MessageQueue();
         $messageQueue->pushMessage(
-            self::doMyOperation(new AbcConcreteXyzCreator())
+            self::doMyOperation(new ConcreteAbcXyzCreator())
         );
         $messageQueue->pushMessage(
-            self::doMyOperation(new DefConcreteXyzCreator())
+            self::doMyOperation(new ConcreteDefXyzCreator())
         );
 
         return (string)$messageQueue;

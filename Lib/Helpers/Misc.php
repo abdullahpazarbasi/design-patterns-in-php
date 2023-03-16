@@ -2,9 +2,6 @@
 
 namespace DesignPatterns\Lib\Helpers;
 
-/**
- * Class Misc
- */
 class Misc
 {
 
@@ -12,7 +9,7 @@ class Misc
      * @param object|string|null $classOrObject
      * @return string
      */
-    public static function class_basename($classOrObject)
+    public static function class_basename(object|string|null $classOrObject): string
     {
         if (is_object($classOrObject)) {
             $sClass = get_class($classOrObject);
@@ -26,6 +23,7 @@ class Misc
         if ($iPos = strrpos($sClass, "\\")) {
             return substr($sClass, $iPos + 1) ?: $sClass;
         }
+
         return $sClass;
     }
 
